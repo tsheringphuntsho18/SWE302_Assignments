@@ -1,0 +1,1 @@
+# Assignment 2: Static & Dynamic Application Security Testing (SAST & DAST)
