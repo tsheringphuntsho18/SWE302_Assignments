@@ -3,6 +3,10 @@
 ## Executive Summary
 This report summarizes the results of comprehensive security testing performed on the application using both Static Application Security Testing (SAST) and Dynamic Application Security Testing (DAST) tools. The assessment leveraged industry-standard tools including SonarQube and Snyk for SAST, and OWASP ZAP for DAST. The objective was to identify security vulnerabilities, evaluate the effectiveness of existing security controls, and recommend remediation steps to enhance the application's security posture.
 
+[Frontend github repo](https://github.com/tsheringphuntsho18/react-redux-realworld-example-app)   
+
+[Backend github repo](https://github.com/tsheringphuntsho18/golang-gin-realworld-example-app)
+
 ## Key Findings Across All Tools
 
 ### Static Application Security Testing (SAST)
