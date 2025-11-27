@@ -18,7 +18,6 @@
 - **Fix:** (Recommended) Upgrade `redux` to `^4.2.1` for full compatibility with `redux-thunk`.  
   **Note:** This step is recommended for long-term security and compatibility, but not yet applied in the attached `package.json` due to possible breaking changes. Please test thoroughly if you proceed.
 
----
 
 ## Changes Made
 
@@ -28,8 +27,6 @@
 - **package-lock.json**:
   - (Regenerated after running `npm install` to reflect new dependency tree)
 - **No code changes required** for these upgrades, but you should test markdown rendering and API calls for regressions.
-
----
 
 ## Before/After Snyk Scan Results
 
@@ -47,8 +44,6 @@
 - **Medium/High:** 0
 - **Dependency Conflicts:** Resolved if `redux` is upgraded to `^4.2.1`
 
----
-
 ## Screenshots
 ![fixed](../assets/fixed.png)
 
@@ -61,8 +56,6 @@
   - Test the application thoroughly for any issues due to dependency upgrades.
   - Consider upgrading `redux` to `^4.2.1` for long-term compatibility and security.
   - Continue to monitor dependencies and code for new issues in future updates.
-
----
 
 **Files updated:**  
 - `package.json`  
