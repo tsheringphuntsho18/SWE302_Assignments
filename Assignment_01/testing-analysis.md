@@ -10,6 +10,9 @@
 - [`articles`](articles/) (no `*_test.go` files present)
 - Root package (no `*_test.go` files for `hello.go` or other root files)
 
+## Screenshot
+![article test](./assets/article_unit_test.png)
+
 ## Failing Tests and Reasons
 
 - Some tests in [`common`](common/unit_test.go) and [`users`](users/unit_test.go) failed due to validator version compatibility issues.
